@@ -8,8 +8,6 @@ AltGr) and not needing to use dead keys when typing ASCII characters, and the
 main benefit over the US layout is easy access to the very commonly used `Ä`
 and `Ö`.
 
-![Image of layout](./images/finner.png)
-
 The repository contains the macOS `.keylayout` file, the Windows `.klc` file,
 and the Linux XKB `finner` symbols file.
 
@@ -106,8 +104,8 @@ ASDFGHJKLÖÄ*
 
 ```
 ´¡@£$€¼½¾≠≈¿¬
-¤¥€®™☐ü↔︎Ωπå“
-√∑∆☒☑︎←↓↑→œæ‘
+¤¥€®™☐ü↑Ωπå”
+√∑∆☒☑↔←↓→œæ’
 ≤«‹©∫§№µ<>–
 ```
 (Pressing space doesn't type anything, to avoid mistakenly entering non-standard whitespace)
@@ -115,9 +113,9 @@ ASDFGHJKLÖÄ*
 ### Option + Shift (AltGr + Shift on Windows)
 
 ```
- ¹²³⁴⁵⁶⁷⁸⁹⁰±¦
-⋅×÷‰† Ü °¶Å”
- ß ′″⇔  ⇒ŒÆ’
-≥»›  • …≤≥—
+°¹²³⁴⁵⁶⁷⁸⁹⁰±¦
+⋅×÷‰†¨Ü⇑↳¶Å”
+ ß ′″⇔⇐⇓⇒ŒÆ’
+≥»›^ • …≤≥—
 ```
 (Pressing space types ` `, the `U+00A0 NO-BREAK SPACE (NBSP)` character)

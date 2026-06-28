@@ -7,7 +7,7 @@ xkb_symbols "finner" {
     name[Group1]= "Finnish (Finner)";
 
     // Number row
-    key <TLDE> { [ grave,        asciitilde,   acute,          VoidSymbol       ] };
+    key <TLDE> { [ grave,        asciitilde,   acute,          degree           ] };
     key <AE01> { [ 1,            exclam,       exclamdown,     onesuperior      ] };
     key <AE02> { [ 2,            quotedbl,     at,             twosuperior      ] };
     key <AE03> { [ 3,            numbersign,   sterling,       threesuperior    ] };
@@ -27,10 +27,10 @@ xkb_symbols "finner" {
     key <AD03> { [ e, E, EuroSign,       division   ] };
     key <AD04> { [ r, R, registered,     U2030      ] };
     key <AD05> { [ t, T, trademark,      U2020      ] };
-    key <AD06> { [ y, Y, U2610,          VoidSymbol ] };
+    key <AD06> { [ y, Y, U2610,          dead_diaeresis ] };
     key <AD07> { [ u, U, udiaeresis,     Udiaeresis ] };
-    key <AD08> { [ i, I, U2194,          VoidSymbol ] };
-    key <AD09> { [ o, O, Greek_OMEGA,    degree     ] };
+    key <AD08> { [ i, I, uparrow,         U21D1      ] };
+    key <AD09> { [ o, O, Greek_OMEGA,    U21B3      ] };
     key <AD10> { [ p, P, Greek_pi,       paragraph  ] };
     key <AD11> { [ bracketleft,  braceleft,   aring,  Aring ] };
     key <AD12> { [ bracketright, braceright,  U201C,  U201D ] };
@@ -41,9 +41,9 @@ xkb_symbols "finner" {
     key <AC03> { [ d, D, U2206,          VoidSymbol ] };
     key <AC04> { [ f, F, U2612,          U2032      ] };
     key <AC05> { [ g, G, U2611,          U2033      ] };
-    key <AC06> { [ h, H, leftarrow,      U21D4      ] };
-    key <AC07> { [ j, J, downarrow,      VoidSymbol ] };
-    key <AC08> { [ k, K, uparrow,        VoidSymbol ] };
+    key <AC06> { [ h, H, U2194,           U21D4      ] };
+    key <AC07> { [ j, J, leftarrow,       U21D0      ] };
+    key <AC08> { [ k, K, downarrow,       U21D3      ] };
     key <AC09> { [ l, L, rightarrow,     U21D2      ] };
     key <AC10> { [ odiaeresis, Odiaeresis, oe, OE   ] };
     key <AC11> { [ adiaeresis, Adiaeresis, ae, AE   ] };
@@ -53,7 +53,7 @@ xkb_symbols "finner" {
     key <LSGT> { [ less,    greater,    lessthanequal,    greaterthanequal ] };
     key <AB01> { [ z, Z, guillemotleft,  guillemotright ] };
     key <AB02> { [ x, X, U2039,          U203A          ] };
-    key <AB03> { [ c, C, copyright,      VoidSymbol     ] };
+    key <AB03> { [ c, C, copyright,      dead_circumflex ] };
     key <AB04> { [ v, V, integral,       VoidSymbol     ] };
     key <AB05> { [ b, B, section,        U2022          ] };
     key <AB06> { [ n, N, U2116,          VoidSymbol     ] };

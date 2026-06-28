@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.2.7.195 on 2018-12-30 at 16:50 (EET)-->
 <!--Last edited by Ukelele version 359 on 2023-06-17 at 20:06 (EEST)-->
-<keyboard group="126" id="-30432" name="Finner" maxout="2">
+<keyboard group="126" id="-30432" name="FIN Extra" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ISO" modifiers="Modifiers"/>
     </layouts>

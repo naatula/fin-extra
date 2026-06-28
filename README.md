@@ -1,19 +1,20 @@
-# Finner
+# FIN Extra
 
-Finner is designed to be an enhanced Finnish keyboard layout. The keylayout was
-designed to be very easy to learn and it keeps changes to the standard Finnish
-layout as minimal as possible, while providing much better usability. The main
-benefit over the standard Finnish layout is the minimized usage of Option (or
-AltGr) and not needing to use dead keys when typing ASCII characters, and the
-main benefit over the US layout is easy access to the very commonly used `Ä`
-and `Ö`.
+FIN Extra is an enhanced Finnish keyboard layout. It is designed to be very
+easy to learn by keeping changes to the standard Finnish layout as minimal as
+possible, while providing much better usability. The main benefit over the
+standard Finnish layout is the minimized usage of Option (or AltGr) and not
+needing to use dead keys when typing ASCII characters, and the main benefit
+over the US layout is easy access to the very commonly used `Ä` and `Ö`.
 
-The repository contains the macOS `.keylayout` file, the Windows `.klc` file,
-and the Linux XKB `finner` symbols file.
+FIN Extra is a fork of [Finner](https://github.com/naatula/finner).
+
+The repository contains the macOS `FIN Extra.keylayout` file, the Windows
+`FIN Extra.klc` file, and the Linux XKB `fin_extra` symbols file.
 
 ## macOS installation
 
-1. Move or symlink `Finner.keylayout` into `/Library/Keyboard Layouts/`
+1. Move or symlink `FIN Extra.keylayout` into `/Library/Keyboard Layouts/`
 2. Log out and log back in
 3. Select the new keyboard layout from System Settings
 
@@ -33,14 +34,14 @@ XKB variant of the Finnish (`fi`) layout and works on both Wayland and Xorg.
 curl -fsSL https://raw.githubusercontent.com/naatula/finner/master/install-linux.sh | sudo bash
 ```
 
-Then log out and log back in, and add **Finnish (Finner)** from
+Then log out and log back in, and add **Finnish (FIN Extra)** from
 **Settings → Keyboard → Input Sources**.
 
 ### Manual install
 
 1. Install the symbols file:
    ```
-   sudo cp finner /usr/share/X11/xkb/symbols/finner
+   sudo cp fin_extra /usr/share/X11/xkb/symbols/fin_extra
    ```
 
 2. Register it as a variant of `fi` so it shows up in system settings. Append
@@ -49,31 +50,31 @@ Then log out and log back in, and add **Finnish (Finner)** from
    ```xml
    <variant>
      <configItem>
-       <name>finner</name>
-       <description>Finnish (Finner)</description>
+       <name>fin_extra</name>
+       <description>Finnish (FIN Extra)</description>
      </configItem>
    </variant>
    ```
    And append this line to the `! variant` section of
    `/usr/share/X11/xkb/rules/evdev.lst`:
    ```
-     finner          fi: Finnish (Finner)
+     fin_extra       fi: Finnish (FIN Extra)
    ```
 
 3. Log out and log back in.
 
 4. Open **Settings → Keyboard → Input Sources**, click **+**, and select
-   **Finnish → Finnish (Finner)**.
+   **Finnish → Finnish (FIN Extra)**.
 
 To try it out in the current X session without installing system-wide:
 ```
-setxkbmap -layout fi -variant finner
+setxkbmap -layout fi -variant fin_extra
 ```
 
 ## Windows installation
 
 1. Download [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134) and open it
-2. From 'File' > 'Load Source File...' open the `Finner.klc` file
+2. From 'File' > 'Load Source File...' open the `FIN Extra.klc` file
 3. From 'Project' > select 'Build DLL and Setup package', ignore the verification warnings
 4. Run the `setup.exe` file from the location it got created to
 5. Select the new keyboard layout from Windows Settings
@@ -104,8 +105,8 @@ ASDFGHJKLÖÄ*
 
 ```
 ´¡@£$€¼½¾≠≈¿¬
-¤¥€®™☐ü↑Ωπå”
-√∑∆☒☑↔←↓→œæ’
+¤¥€®™☐ü↑Ωπå"
+√∑∆☒☑↔←↓→œæ'
 ≤«‹©∫§№µ<>–
 ```
 (Pressing space doesn't type anything, to avoid mistakenly entering non-standard whitespace)
@@ -114,8 +115,8 @@ ASDFGHJKLÖÄ*
 
 ```
 °¹²³⁴⁵⁶⁷⁸⁹⁰±¦
-⋅×÷‰†¨Ü⇑↳¶Å”
- ß ′″⇔⇐⇓⇒ŒÆ’
+⋅×÷‰†¨Ü⇑↳¶Å"
+ ß ′″⇔⇐⇓⇒ŒÆ'
 ≥»›^ • …≤≥—
 ```
-(Pressing space types ` `, the `U+00A0 NO-BREAK SPACE (NBSP)` character)
+(Pressing space types ` `, the `U+00A0 NO-BREAK SPACE (NBSP)` character)

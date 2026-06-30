@@ -284,9 +284,9 @@
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="→"/>
-            <key code="38" output="↓"/>
+            <key code="38" output="←"/>
             <key code="39" output="æ"/>
-            <key code="40" output="↑"/>
+            <key code="40" output="↓"/>
             <key code="41" output="œ"/>
             <key code="42" output="‘"/>
             <key code="43" output="&#x003C;"/>
@@ -708,9 +708,9 @@
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="→"/>
-            <key code="38" output="↓"/>
+            <key code="38" output="←"/>
             <key code="39" output="Æ"/>
-            <key code="40" output="↑"/>
+            <key code="40" output="↓"/>
             <key code="41" output="Œ"/>
             <key code="42" output="‘"/>
             <key code="43" output="&#x003C;"/>

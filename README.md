@@ -115,8 +115,8 @@ ASDFGHJKLÖÄ*
 
 ```
 °¹²³⁴⁵⁶⁷⁸⁹⁰±¦
-⋅×÷‰†¨Ü⇑↳¶Å"
+⋅×÷‰† Ü⇑↳¶Å"
  ß ′″⇔⇐⇓⇒ŒÆ'
-≥»›^ • …≤≥—
+≥»›  • …≤≥—
 ```
 (Pressing space types ` `, the `U+00A0 NO-BREAK SPACE (NBSP)` character)

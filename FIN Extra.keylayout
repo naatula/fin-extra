@@ -360,7 +360,7 @@
             <key code="5" output="″"/>
             <key code="6" output="»"/>
             <key code="7" output="›"/>
-            <key code="8" output="^"/>
+            <key code="8" output=""/>
             <key code="9" output=""/>
             <key code="10" output="°"/>
             <key code="11" output="•"/>
@@ -368,7 +368,7 @@
             <key code="13" output="×"/>
             <key code="14" output="÷"/>
             <key code="15" output="‰"/>
-            <key code="16" output="¨"/>
+            <key code="16" output=""/>
             <key code="17" output="†"/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>

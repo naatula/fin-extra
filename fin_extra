@@ -27,7 +27,7 @@ xkb_symbols "fin_extra" {
     key <AD03> { [ e, E, EuroSign,       division   ] };
     key <AD04> { [ r, R, registered,     U2030      ] };
     key <AD05> { [ t, T, trademark,      U2020      ] };
-    key <AD06> { [ y, Y, U2610,          dead_diaeresis ] };
+    key <AD06> { [ y, Y, U2610,          VoidSymbol     ] };
     key <AD07> { [ u, U, udiaeresis,     Udiaeresis ] };
     key <AD08> { [ i, I, uparrow,         U21D1      ] };
     key <AD09> { [ o, O, Greek_OMEGA,    U21B3      ] };
@@ -53,7 +53,7 @@ xkb_symbols "fin_extra" {
     key <LSGT> { [ less,    greater,    lessthanequal,    greaterthanequal ] };
     key <AB01> { [ z, Z, guillemotleft,  guillemotright ] };
     key <AB02> { [ x, X, U2039,          U203A          ] };
-    key <AB03> { [ c, C, copyright,      dead_circumflex ] };
+    key <AB03> { [ c, C, copyright,      VoidSymbol     ] };
     key <AB04> { [ v, V, integral,       VoidSymbol     ] };
     key <AB05> { [ b, B, section,        U2022          ] };
     key <AB06> { [ n, N, U2116,          VoidSymbol     ] };
